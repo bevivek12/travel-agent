@@ -1,7 +1,7 @@
 import os
 import datetime
 
-def save_document(response_text: str, directory: str = "./output"):
+def save1_document(response_text: str, directory: str = "./output"):
     """Export travel plan to Markdown file with proper formatting"""
     os.makedirs(directory, exist_ok=True)
     

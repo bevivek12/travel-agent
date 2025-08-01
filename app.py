@@ -8,13 +8,13 @@ import sys
 BASE_URL = "http://localhost:8000"  # Backend endpoint
 
 st.set_page_config(
-    page_title="🌍 Travel Planner Agentic Application by vivek kumar ganji",
+    page_title="🌍 Travel Planner Agentic Application ",
     page_icon="🌍",
     layout="centered",
     initial_sidebar_state="expanded",
 )
 
-st.title("🌍 Travel Planner Agentic Application")
+st.title("🌍 Travel Planner Agentic Application by vivek kumar ganji")
 
 # Initialize chat history
 if "messages" not in st.session_state:
@@ -56,4 +56,4 @@ if submit_button and user_input.strip():
             st.error(" Bot failed to respond: " + response.text)
 
     except Exception as e:
-        raise f"The response failed due to {e}"
+        raise Exception(f"The response failed due to {e}")
