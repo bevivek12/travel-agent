@@ -1,6 +1,9 @@
 # 🌍 Travel Agent –AI Travel Planner
 
-![Demo](demo.gif)
+<p align="center">
+  <img src="demo.gif" alt="Demo GIF" />
+</p>
+
 
 ---
 
@@ -59,6 +62,7 @@ pip install -r requirements.txt
 
 # 4. Run the application
 python app.py
+
 
 
 
