@@ -1,6 +1,6 @@
 # 🌍 Travel Agent –AI Travel Planner
 
-![Demo]([demo.gif](https://github.com/bevivek12/travel-agent/blob/master/%F0%9F%8C%8D%20Travel%20Planner%20Agent.gif))
+![Demo](🌍 Travel Planner Agent.gif)
 
 ---
 
@@ -59,4 +59,5 @@ pip install -r requirements.txt
 
 # 4. Run the application
 python app.py
+
 
